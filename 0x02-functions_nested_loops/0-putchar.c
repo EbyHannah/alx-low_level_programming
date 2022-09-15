@@ -1,45 +1,38 @@
-nclude "main.h"
+#include <stdio.h>
+
+#include "main.h"
 
 
 
 /**
- *
- * *main - Entry point
- *
- * *
- *
- * *Return: 0 nothing, return void
- *
- * */
-
-
-
+ * main - Entry point
+ * Descriptions: Print _putchar followed by a new line
+ * Return:0
+ */
 int main(void)
-
-
 
 {
 
-		_putchar('_');
+	char c[8] = "_putchar";
 
-			_putchar('p');
-
-				_putchar('u');
-
-					_putchar('t');
-
-						_putchar('c');
-
-							_putchar('h');
-
-								_putchar('a');
-
-									_putchar('r');
-
-										_putchar('\n');
+	int i = 0;
 
 
 
-											return (0);
+	while (i < 8)
+
+	{
+
+	_putchar(c[i]);
+
+	i++;
+
+	}
+
+	_putchar('\n');
+
+	return (0);
+
+
 
 }
