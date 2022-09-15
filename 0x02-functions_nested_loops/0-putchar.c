@@ -13,7 +13,7 @@ int main(void)
 
 {
 
-	char c[8] = "_putchar";
+	char ch[8] = "_putchar";
 
 	int i = 0;
 
@@ -23,7 +23,7 @@ int main(void)
 
 	{
 
-	_putchar(c[i]);
+	_putchar(ch[i]);
 
 	i++;
 
